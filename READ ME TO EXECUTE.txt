@@ -1,0 +1,22 @@
+How to run this project
+From folder: pbl full stack enterprise
+
+Install dependencies:
+
+npm install
+pip install -r requirements.txt
+
+Start backend (Terminal 1):
+python run.py
+Runs on http://127.0.0.1:5000
+
+Start frontend (Terminal 2):
+npm run dev
+
+Open http://localhost:5173
+Test login quickly
+Seed users (already auto-created on first backend run):
+admin@zero-trust.dev / Password@123
+manager@zero-trust.dev / Password@123
+employee@zero-trust.dev / Password@123
+Use login page, allow camera permission, capture face image, then verify/sign in.
